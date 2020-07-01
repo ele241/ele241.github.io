@@ -51,15 +51,13 @@ a:link {
 
 .container {
 	width: 80%;
-	max-width: 1260px;
-	min-width: 780px;
 	background-color: #FFF;
 	margin: 0 auto; 
 }
 
 
 .header {
-	background-color: #ffffff;
+	background-color: #fee2d6;
 	padding-left: 20px;
 }
 
@@ -80,8 +78,13 @@ a:link {
 .content ul, .content ol { 
 	padding: 0 15px 15px 40px; 
 }
-.content1 {	padding: 10px 0;
+.riga {	
+    margin-left: -5px;
+    margin-right: -5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .footer {
 	padding: 10px 0;
@@ -103,6 +106,18 @@ a:link {
 	font-size: 1px;
 	line-height: 0px;
 }
+.img {
+	margin-bottom: 20px;
+	flex: 0 0 25%;
+    max-width: 25%;
+	padding-right: 15px;
+    padding-left: 15px;
+	
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    
+}
 
 -->
 </style>
@@ -110,8 +125,9 @@ a:link {
 
 <body>
 
-<div class="container">
-  <div class="header"><a href="index.html"><img src="logo_.png" alt="Inserite qui il logo" name="Insert_logo" width="347" height="94" id="Insert_logo" style="background-color: #ffffff; display:block;" title="logo" /></a>
+  <div class="container">
+  
+  <div class="header"><a href="index.html"><img src="logo_.png" alt="Inserite qui il logo" name="Insert_logo" width="347" height="94" id="Insert_logo" style="background-color: #fee2d6; display:block;" title="logo" /></a>
     <div>
       
         <table width="100%" border="0">
@@ -128,52 +144,67 @@ a:link {
     <!-- end .header --></div>
   <div class="content">
     <h1>Le nostre fraganze</h1>
-	  
-	  <table class="content1" width="100%" border="0" align="left" cellpadding="0">
-      <tr>
-        <td width="23%" align="center"><img src="tea-tree_NG1.jpg" width="207"  alt="tea tree" /></td>
-        <td width="23%" align="center"><img src="EUCALIPTO.jpg" width="207"  alt="eucalipto" /></td>
-        <td width="23%" align="center"><img src="lavanda.jpg" width="207"   alt="lavanda" /></td>
-        <td width="23%" align="center"><img src="timo.jpg" width="207"  alt="timo" /></td>
-      </tr>
-      <tr>
-        <td width="23%" align="center" valign="middle"><h5>Aroma tea tree €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma eucalipto €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma lavanda €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma timo €10.00<br />
- <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-       
-      </tr>
-      <tr>
-        <td width="23%" align="center" valign="middle"><img src="limoni.jpg" width="207" alt="limone" /></td>
-        <td width="23%" align="center" valign="middle"><img src="rosa-damascena-.jpg" width="207" alt="rosa damascena" /></td>
-        <td width="23%" align="center" valign="middle"><img src="gardenia.jpg" width="207" alt="gardenia" /></td>
-        <td width="23%" align="center" valign="middle"><img src="giglio.jpg" width="207"  alt="giglio" /></td>
-      </tr>
-      <tr>
-        <td width="23%" align="center" valign="middle"><h5>Aroma limone €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma rosa damascema €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma gardenia €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma giglio €10.00 <br />
-<a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-      </tr>
-      <tr>
-        <td width="23%" align="center" valign="middle"><img src="amamelide9.jpg" width="207" height="138" alt="amamelide" /></td>
-        <td width="23%" align="center" valign="middle"><img src="pino-mugo.jpg" width="207" height="138" alt="pino mugo" /></td>
-        <td width="23%" align="center" valign="middle"><img src="gelsomino.jpg" width="207" height="138" alt="gelsomino" /></td>
-        <td width="23%" align="center" valign="middle"><img src="violetta.jpg" width="207" height="138" alt="violetta" /></td>
-      </tr>
-      <tr class="content">
-        <td width="23%" align="center" valign="middle"><h5>Aroma amamelide €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma pino €10.00 <br />
-<a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma gelsomino €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-        <td width="23%" align="center" valign="middle"><h5>Aroma violetta €10.00 <a href="prodotti.html" target="_parent"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></h5></td>
-      </tr>
-		  </table>
-	 
-    <h2>&nbsp;</h2>
-  <!-- end .content --></div>
+  <div class="riga">
+   <div class="img">
+   
+   <img src="tea-tree_NG1.jpg" width="230" height="153" alt="tea tree" />
+<h6>Aroma tea tree €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a>  </div>
+<div class="img">
+
+   <img src="EUCALIPTO.jpg" width="230" height="153" alt="tea tree" />
+<h6>Aroma eucalipto €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a>  </div>
+<div class="img">
+
+   <img src="lavanda.jpg" width="230" height="153" alt="lavanda" />
+<h6>Aroma lavanda €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a></div>
+<div class="img">
+
+   <img src="timo.jpg" width="230" height="153" alt="timo" />
+<h6>Aroma timo €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+</div> 
+<div class="riga">
+   <div class="img">
+   
+   <img src="limoni.jpg" width="230" height="153" alt="limoni" />
+<h6>Aroma limoni €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+<div class="img">
+   <img src="rosa-damascena-.jpg" width="230" height="153" alt="rosa-damascena" />
+<h6>Aroma rosa damascena 
+  €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+<div class="img">
+   <img src="gardenia.jpg" width="230" height="153" alt="gardenia" />
+<h6>Aroma gardenia €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+<div class="img">
+   <img src="giglio.jpg" width="230" height="153" alt="giglio" />
+<h6>Aroma giglio €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+</div> 
+<div class="riga">
+   <div class="img">
+   <img src="amamelide9.jpg" width="230" height="153" alt="amamelide" />
+<h6>Aroma amamelide €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+<div class="img">
+   <img src="pino-mugo.jpg" width="230" height="153" alt="pino-mugo" />
+<h6>Aroma pino-mugo €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+<div class="img">
+   <img src="gelsomino.jpg" width="230" height="153" alt="gelsomino" />
+<h6>Aroma gelsomino €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+<div class="img">
+   <img src="violetta.jpg" width="230" height="153" alt="violetta" />
+<h6>Aroma violetta €10.00 </h6>
+<a href="carrello.html"><img src="carrello.png" width="60" height="60" alt="acquista" /></a> </div>
+</div> 
+<!-- end .content --></div>
   <div class="footer">
     <p>Aroma shop - <a href="mailto:aromashop@gmail.com">aromashop@gmail.com</a> - tel .:0923 111111</p>
     <!-- end .footer --></div>
